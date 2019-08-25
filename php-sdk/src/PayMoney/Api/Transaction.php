@@ -1,18 +1,18 @@
-<?php namespace PayMoney\Api;
+<?php namespace CynPay\Api;
 
-use PayMoney\Common\PayMoneyModel;
+use CynPay\Common\CynPayModel;
 
 /**
  * Class Transaction
- * @property \PayMoney\Api\Amount amount
+ * @property \CynPay\Api\Amount amount
  *
  */
 
-class Transaction extends PayMoneyModel
+class Transaction extends CynPayModel
 {
 
     /**
-     * @param \PayMoney\Api\Amount $amount
+     * @param \CynPay\Api\Amount $amount
      *
      * @return $this
      */

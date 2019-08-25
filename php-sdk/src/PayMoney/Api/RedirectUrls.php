@@ -1,8 +1,8 @@
 <?php
 
-namespace PayMoney\Api;
+namespace CynPay\Api;
 
-use PayMoney\Common\PayMoneyModel;
+use CynPay\Common\CynPayModel;
 
 /**
  * Class RedirectUrls
@@ -11,7 +11,7 @@ use PayMoney\Common\PayMoneyModel;
  *
  */
 
-class RedirectUrls extends PayMoneyModel
+class RedirectUrls extends CynPayModel
 {
     public function setSuccessUrl($url)
     {
