@@ -1,9 +1,9 @@
 {
-    "name": "parvez/PayMoney",
+    "name": "cynojine/CynPay",
     "authors": [
         {
-            "name": "Robi Parvez",
-            "email": "parvez.techvill@gmail.com"
+            "name": "kazashim kuzasuwat",
+            "email": "kazashim@cynojine.com"
         }
     ],
     "require": {
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-0": {
-            "PayMoney": "php-sdk/src/"
+            "CynPay": "php-sdk/src/"
         }
     }
 }
