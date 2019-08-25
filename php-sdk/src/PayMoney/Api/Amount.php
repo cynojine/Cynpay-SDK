@@ -1,7 +1,7 @@
 <?php
-namespace PayMoney\Api;
+namespace CynPay\Api;
 
-use PayMoney\Common\PayMoneyModel;
+use CynPay\Common\CynPayModel;
 
 /**
  * Class Amount
@@ -9,7 +9,7 @@ use PayMoney\Common\PayMoneyModel;
  * @property string currency
  *
  */
-class Amount extends PayMoneyModel
+class Amount extends CynPayModel
 {
 
     /**
