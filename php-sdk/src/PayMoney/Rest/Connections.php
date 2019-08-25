@@ -1,11 +1,11 @@
 <?php
-namespace PayMoney\Rest;
+namespace CynPay\Rest;
 
 class Connections
 {
     public function __construct()
     {
-        !defined('BASE_URL') ? define('BASE_URL', 'http://your-domain.com/') : false; # http://your-domain.com/, -where Pay Money exists - example - http://paymoney.techvill.net/ -
+        !defined('BASE_URL') ? define('BASE_URL', 'https://cynpay.cynojine.com/') : false; # http://your-domain.com/, -where Pay Money exists - example - http://cynpay.cynojine.com/ -
     }
 
     public function execute($url, $method, $payload, $headers = null)

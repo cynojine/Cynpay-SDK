@@ -1,9 +1,9 @@
 <?php
-namespace PayMoney\Common;
+namespace CynPay\Common;
 
-use PayMoney\Rest\Connections;
+use CynPay\Rest\Connections;
 
-class PayMoneyModel extends Connections
+class CynPayModel extends Connections
 {
 
     public $props = [];
