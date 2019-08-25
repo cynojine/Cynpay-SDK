@@ -1,19 +1,19 @@
 <?php
-namespace PayMoney\Api;
+namespace CynPay\Api;
 
-use PayMoney\Common\PayMoneyModel;
+use CynPay\Common\CynPayModel;
 
 /**
  * Class Payer
  * @property string paymentMethod
  *
  */
-class Payer extends PayMoneyModel
+class Payer extends CynPayModel
 {
 
     /**
-     * Valid Values: ["paymoney"]
-     * method will be like paymoney, paypal, stripe etc
+     * Valid Values: ["CynPay"]
+     * method will be like CynPay, paypal, stripe etc
      * @param  string  $method
      * @return $this
      */

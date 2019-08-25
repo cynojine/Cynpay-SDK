@@ -1,22 +1,22 @@
 <?php
-namespace PayMoney\Api;
+namespace CynPay\Api;
 
-use PayMoney\Common\PayMoneyModel;
+use CynPay\Common\CynPayModel;
 
 /**
  * Class Payment
- * @property \PayMoney\Api\Payer payer
- * @property \PayMoney\Api\Transaction transaction
- * @property \PayMoney\Api\RedirectUrls redirectUrls
+ * @property \CynPay\Api\Payer payer
+ * @property \CynPay\Api\Transaction transaction
+ * @property \CynPay\Api\RedirectUrls redirectUrls
  * @property array credentials
  * @property string approvedUrl
  *
  */
-class Payment extends PayMoneyModel
+class Payment extends CynPayModel
 {
 
     /**
-     * @param \PayMoney\Api\Payer $payer
+     * @param \CynPay\Api\Payer $payer
      *
      * @return $this
      */
@@ -32,7 +32,7 @@ class Payment extends PayMoneyModel
     }
 
     /**
-     * @param \PayMoney\Api\Transaction $transaction
+     * @param \CynPay\Api\Transaction $transaction
      *
      * @return $this
      */
@@ -48,7 +48,7 @@ class Payment extends PayMoneyModel
     }
 
     /**
-     * @param \PayMoney\Api\RedirectUrls $redirectUrls
+     * @param \CynPay\Api\RedirectUrls $redirectUrls
      *
      * @return $this
      */
